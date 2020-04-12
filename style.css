@@ -1,0 +1,89 @@
+input:focus::placeholder {
+    color: transparent;
+  }
+
+.line {
+    text-decoration: line-through;
+    transition: ease-out;
+}
+
+li {
+    font-size: 1.5rem;
+    font-family: 'Indie Flower';
+}
+
+#label {
+    font-size: large;
+    font-family: 'Indie Flower';
+    font-size: 2rem;
+}
+
+h1 {
+    text-align: left;
+    text-decoration: wavy;
+    color: black;
+    font-family: 'Indie Flower';
+    font-size: 3rem;
+    margin-left: 5%;
+}
+
+#new-todo {
+    font-family: 'Indie Flower';
+}
+
+body{
+    background-color: bisque;
+}
+
+.removeBtn {
+    background-color: bisque;
+    color: black;
+    border-color: black;
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    position: relative;
+    border-width: medium;
+    border-style: dashed;
+    left: 15%;
+    opacity: 0.5;
+}
+
+span {
+    visibility: hidden;
+}
+
+#intro {
+    font-family: 'Indie Flower';
+    text-align: left;
+}
+
+#button {
+    background-color: bisque;
+    color: black;
+    border-color: black;
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    position: relative;
+    border-width: medium;
+    border-style: solid;
+    font-size: medium;
+}
+
+#clear {
+    background-color: bisque;
+    color: black;
+    border-color: black;
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    position: relative;
+    border-width: medium;
+    border-style: solid;
+    font-size: medium;
+}
+
+#date {
+    color: darkgrey;
+    font-family: 'Indie Flower';
+    font-weight: bolder;
+    font-size: large;
+}
